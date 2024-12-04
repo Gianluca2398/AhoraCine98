@@ -1,1 +1,61 @@
-<h1>Gifthub pages test</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Trailers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🎥 Movie Trailers</h1>
+        <nav>
+            <ul>
+                <li><a href="#action">Action</a></li>
+                <li><a href="#comedy">Comedy</a></li>
+                <li><a href="#drama">Drama</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="action">
+            <h2>Action</h2>
+            <div class="movie">
+                <h3>Fast & Furious 10</h3>
+                <video controls>
+                    <source src="trailers/fast-furious-10.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+
+        <section id="comedy">
+            <h2>Comedy</h2>
+            <div class="movie">
+                <h3>The Hangover</h3>
+                <video controls>
+                    <source src="trailers/the-hangover.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+
+        <section id="drama">
+            <h2>Drama</h2>
+            <div class="movie">
+                <h3>The Pursuit of Happyness</h3>
+                <video controls>
+                    <source src="trailers/pursuit-of-happyness.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Movie Trailers. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
