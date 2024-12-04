@@ -4,7 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ahora Cine - Trailers</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #222;
+            border-bottom: 2px solid #444;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .trailer {
+            flex: 1 1 calc(50% - 20px);
+            text-align: center;
+        }
+
+        .trailer h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .trailer iframe {
+            width: 100%;
+            height: 315px;
+            max-width: 560px;
+            max-height: 315px;
+            border: 3px solid #444;
+            border-radius: 5px;
+        }
+
+        .trailer p {
+            margin-top: 10px;
+            font-size: 1em;
+            color: #ccc;
+        }
+
+        @media (max-width: 768px) {
+            .trailer {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -22,7 +86,7 @@
                 <h2>The Substance</h2>
                 <iframe src="https://www.youtube.com/embed/LNlrGhBpYjc" 
                     title="The Substance Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p>La historia de sustancias psicoactivas y su influencia en la sociedad.</p>
+                <p>Un documental impactante sobre la historia de sustancias psicoactivas y su influencia en la sociedad.</p>
             </section>
         </div>
         <div class="row">
@@ -50,3 +114,4 @@
     </main>
 </body>
 </html>
+
