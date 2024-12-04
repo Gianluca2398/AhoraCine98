@@ -1,61 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie Trailers</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Trailers de Películas</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
+    <!-- Encabezado con el banner -->
     <header>
-        <h1>🎥 Movie Trailers</h1>
-        <nav>
-            <ul>
-                <li><a href="#action">Action</a></li>
-                <li><a href="#comedy">Comedy</a></li>
-                <li><a href="#drama">Drama</a></li>
-            </ul>
-        </nav>
+        <img src="imagenes/banner.png" alt="Banner de Trailers de Películas" class="banner">
     </header>
 
+    <!-- Contenedor principal -->
     <main>
-        <section id="action">
-            <h2>Action</h2>
-            <div class="movie">
-                <h3>Fast & Furious 10</h3>
-                <video controls>
-                    <source src="trailers/fast-furious-10.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-        </section>
+        <h1>Bienvenidos a Trailers de Películas</h1>
+        <p>Disfruta de los últimos avances de películas en un solo lugar.</p>
 
-        <section id="comedy">
-            <h2>Comedy</h2>
-            <div class="movie">
-                <h3>The Hangover</h3>
+        <!-- Sección de trailers -->
+        <section class="trailers">
+            <article class="trailer">
+                <h2>Película 1</h2>
                 <video controls>
-                    <source src="trailers/the-hangover.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
+                    <source src="trailers/pelicula1.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
                 </video>
-            </div>
-        </section>
-
-        <section id="drama">
-            <h2>Drama</h2>
-            <div class="movie">
-                <h3>The Pursuit of Happyness</h3>
+            </article>
+            <article class="trailer">
+                <h2>Película 2</h2>
                 <video controls>
-                    <source src="trailers/pursuit-of-happyness.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
+                    <source src="trailers/pelicula2.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
                 </video>
-            </div>
+            </article>
         </section>
     </main>
 
+    <!-- Pie de página -->
     <footer>
-        <p>&copy; 2024 Movie Trailers. All rights reserved.</p>
+        <p>&copy; 2024 Trailers de Películas. Todos los derechos reservados.</p>
     </footer>
+
+    <!-- Archivo JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
