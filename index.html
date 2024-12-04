@@ -3,69 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trailers de Películas</title>
-    <link rel="stylesheet" href="estilos.css">
+    <title>Ahora Cine - Trailers</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Encabezado con el banner -->
     <header>
-        <img src="imagenes/banner.png" alt="Banner de Trailers de Películas" class="banner">
+        <h1>Ahora Cine - Trailers Exclusivos</h1>
     </header>
-
-    <!-- Contenedor principal -->
-    <main>
-        <h1>Bienvenidos a Trailers de Películas</h1>
-        <p>Descubre los últimos avances de películas. ¡Explora y disfruta!</p>
-
-        <!-- Sección de trailers -->
-        <section class="trailers">
-            <!-- Primer trailer -->
-            <article class="trailer">
-                <h2>Oppenheimer</h2>
-                <iframe 
-                    src="https://www.youtube.com/embed/LNlrGhBpYjc" 
-                    frameborder="0" 
-                    allowfullscreen>
-                </iframe>
-                <p>
-                    "Oppenheimer" cuenta la fascinante historia del científico que lideró el desarrollo de la bomba atómica durante la Segunda Guerra Mundial. 
-                </p>
-            </article>
-
-            <!-- Segundo trailer -->
-            <article class="trailer">
-                <h2>El Hoyo</h2>
-                <iframe 
-                    src="https://www.youtube.com/embed/YZy2hnJc0b8" 
-                    frameborder="0" 
-                    allowfullscreen>
-                </iframe>
-                <p>
-                    "El Hoyo" es un thriller psicológico que explora un sistema de prisiones único y escalofriante, donde la supervivencia depende de la solidaridad y el ingenio.
-                </p>
-            </article>
-
-            <!-- Tercer trailer -->
-            <article class="trailer">
-                <h2>Matrix Resurrections</h2>
-                <iframe 
-                    src="https://www.youtube.com/embed/Qssx0cl_lDQ" 
-                    frameborder="0" 
-                    allowfullscreen>
-                </iframe>
-                <p>
-                    "Matrix Resurrections" revive el icónico universo cibernético, explorando nuevas dimensiones de la realidad y la lucha por la libertad.
-                </p>
-            </article>
-        </section>
+    <main class="container">
+        <div class="row">
+            <section class="trailer">
+                <h2>El Hoyo 2</h2>
+                <iframe src="https://www.youtube.com/embed/brcvfeHYmBM" 
+                    title="El Hoyo 2 Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>En esta secuela, el sistema vertical continúa mostrando los límites de la humanidad en un contexto distópico.</p>
+            </section>
+            <section class="trailer">
+                <h2>The Substance</h2>
+                <iframe src="https://www.youtube.com/embed/LNlrGhBpYjc" 
+                    title="The Substance Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>La historia de sustancias psicoactivas y su influencia en la sociedad.</p>
+            </section>
+        </div>
+        <div class="row">
+            <section class="trailer">
+                <h2>Sonríe 2</h2>
+                <iframe src="https://www.youtube.com/embed/Qssx0cl_lDQ" 
+                    title="Sonríe 2 Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>La sonrisa más aterradora regresa, prometiendo un horror psicológico aún más escalofriante.</p>
+            </section>
+            <section class="trailer">
+                <h2>Robot Salvaje</h2>
+                <iframe src="https://www.youtube.com/embed/nLLx_VCR3QE" 
+                    title="Robot Salvaje Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>Una historia de redención y revolución en un mundo donde los robots han tomado conciencia.</p>
+            </section>
+        </div>
+        <div class="row">
+            <section class="trailer">
+                <h2>Furiosa: De la saga Mad Max</h2>
+                <iframe src="https://www.youtube.com/embed/GgerHF86Rv4" 
+                    title="Furiosa Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>La precuela de Mad Max revela los orígenes de Furiosa en un mundo salvaje y desértico.</p>
+            </section>
+        </div>
     </main>
-
-    <!-- Pie de página -->
-    <footer>
-        <p>&copy; 2024 Trailers de Películas. Todos los derechos reservados.</p>
-    </footer>
-
-    <!-- Archivo JavaScript -->
-    <script src="script.js"></script>
 </body>
 </html>
